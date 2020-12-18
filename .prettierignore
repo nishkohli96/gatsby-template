@@ -2,3 +2,9 @@
 package.json
 package-lock.json
 public
+
+.gitignore
+.prettierignore
+LICENSE
+
+src/assets/images
