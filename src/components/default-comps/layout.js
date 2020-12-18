@@ -10,7 +10,8 @@ import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 
 import Header from "./header";
-import "@Css/layout.css";
+// import "@Css/layout.css";
+/* I commented out layout.js as it messing up my full-screen width and height css */
 
 const Layout = ({ children }) => {
     const data = useStaticQuery(graphql`
